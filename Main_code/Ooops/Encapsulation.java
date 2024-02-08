@@ -21,8 +21,8 @@ class account{
   
   
 
-    public void setname(String names){
-        name=names;
+  public void setname(String name){
+        this.name=name;
 
     }
 
@@ -33,7 +33,7 @@ class account{
 
     public void setnumber(int numbers){
     number=numbers;
-    }
+    }  
 }
 
 
@@ -56,8 +56,8 @@ class encap {
     a1.setbalance(balances);
     a1.setnumber(numbers);
     System.out.println("Get name : "+a1.getname());
-    System.out.println("Get balance"+a1.getbalance());
-    System.out.println("Get number"+a1.getnumber());
+    System.out.println("Get balance :"+a1.getbalance());
+    System.out.println("Get number :"+a1.getnumber());
 
     
 
