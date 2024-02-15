@@ -12,7 +12,7 @@ class test{
 class varibale_argument {
     public static void main(String args[]){
         test obj=new test();
-        System.out.println(obj.add(1,2,3,4,5,6));
+        System.out.println(obj.add(1,2,3,4,5,6,7));
 
     }
     
