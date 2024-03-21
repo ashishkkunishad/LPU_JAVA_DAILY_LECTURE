@@ -1,6 +1,6 @@
 
 
-class A extends Thread{//creating thread
+class A implements Runnable{//creating thread
     public void run(){//run() should use not any other name
         for(int i=0; i<=10;i++){
         System.out.println("Task 1");
@@ -17,21 +17,22 @@ class A extends Thread{//creating thread
     }
 }
 
-class B extends Thread{
-    public void run(){
-        for(int i=0; i<=10;i++){
-        System.out.println("Task 2");
-        }
+class B implements Runnable {
+    public void run() {
+        for(int i = 0; i <= 10; i++) {
+            System.out.println("Task 2");
 
-        try{
-            Thread.sleep(10);
-            } catch (InterruptedException e){
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+        }
     }
 }
-class thrd{
-    public static void main(String args[]){
+
+class thrrd{
+    public static void main(String[] args){
         Runnable obj1= new A();
         Runnable obj2= new B();
         Thread t1=new Thread(obj1);
