@@ -5,7 +5,7 @@ import java.util.Deque;
 class lpu{
     public static void main(String[] args) {
 
-        Deque<String> l1= new LinkedList<>();
+        Deque<String> l1= new LinkedList<>(); // can add and delete from front and rear
         l1.add("mercury");
         l1.add("venus");
         l1.add("earth");
@@ -16,7 +16,7 @@ class lpu{
         System.out.println(l1);
 
         //System.out.println(l1.get(1));
-        Queue<String> l2= new LinkedList<>();
+        Queue<String> l2= new LinkedList<>();//can delete from front and add from rear(end)
         l2.add("ckn");
         System.out.println(l2);
 
