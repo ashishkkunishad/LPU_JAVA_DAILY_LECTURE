@@ -33,7 +33,7 @@ class lpu{
         //System.out.println(set1.headSet(5));//gives smaller no. of given no.
         //System.out.println(set1.tailSet(4));//give elements greater and equal than no.
         System.out.println(set1.subSet(2,true, 5, true));
-
+            
 
 
 
