@@ -8,10 +8,12 @@ class lpu{
             System.out.println("after error");
         }
         catch(ArithmeticException e){
-            System.out.println(e);
+            System.out.print(e);
+            System.out.println(" By divide by zero");
         }
         catch(ArrayIndexOutOfBoundsException e){
-            System.out.println(e);
+            System.out.print(e);
+            System.out.println("  :By arays");
         }
 
         System.out.println("outside try");
